@@ -21,6 +21,7 @@
 		7E046E77195521BB00A2777E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E046E59195521BB00A2777E /* UIKit.framework */; };
 		7E046E7F195521BB00A2777E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E046E7D195521BB00A2777E /* InfoPlist.strings */; };
 		7E046E81195521BB00A2777E /* Passing_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E046E80195521BB00A2777E /* Passing_Data_Challenge_SolutionTests.m */; };
+		7E046E8C1955239C00A2777E /* JMdetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E046E8B1955239C00A2777E /* JMdetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		7E046E7C195521BB00A2777E /* Passing Data Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Passing Data Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		7E046E7E195521BB00A2777E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7E046E80195521BB00A2777E /* Passing_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Passing_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		7E046E8A1955239C00A2777E /* JMdetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMdetailViewController.h; sourceTree = "<group>"; };
+		7E046E8B1955239C00A2777E /* JMdetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMdetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				7E046E67195521BB00A2777E /* Main.storyboard */,
 				7E046E6A195521BB00A2777E /* JMViewController.h */,
 				7E046E6B195521BB00A2777E /* JMViewController.m */,
+				7E046E8A1955239C00A2777E /* JMdetailViewController.h */,
+				7E046E8B1955239C00A2777E /* JMdetailViewController.m */,
 				7E046E6D195521BB00A2777E /* Images.xcassets */,
 				7E046E5C195521BB00A2777E /* Supporting Files */,
 			);
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E046E8C1955239C00A2777E /* JMdetailViewController.m in Sources */,
 				7E046E62195521BB00A2777E /* main.m in Sources */,
 				7E046E6C195521BB00A2777E /* JMViewController.m in Sources */,
 				7E046E66195521BB00A2777E /* JMAppDelegate.m in Sources */,
@@ -456,6 +462,7 @@
 				7E046E86195521BB00A2777E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E046E87195521BB00A2777E /* Build configuration list for PBXNativeTarget "Passing Data Challenge SolutionTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				7E046E89195521BB00A2777E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
