@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FF9C91A9-5340-415F-85D0-9E9A92EFC00B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Passing Data Challenge Solution</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>301CDEB6-86E3-49B6-95F4-FC860915BDE4</key>
+		<string>https://github.com/jonmariano21/Passing-Data-Challenge-Solution.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Passing Data Challenge Solution.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>301CDEB6-86E3-49B6-95F4-FC860915BDE4</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jonmariano21/Passing-Data-Challenge-Solution.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>301CDEB6-86E3-49B6-95F4-FC860915BDE4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>301CDEB6-86E3-49B6-95F4-FC860915BDE4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Passing Data Challenge Solution</string>
+		</dict>
+	</array>
+</dict>
+</plist>

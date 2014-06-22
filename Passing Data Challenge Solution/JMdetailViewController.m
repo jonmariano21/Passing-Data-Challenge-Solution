@@ -50,4 +50,10 @@
 }
 */
 
+- (IBAction)updateButtonPressed:(UIButton *)sender {
+    //Update label when pressed
+    self.label.text = self.textField.text;
+    [self.delegate didUpdateText: self.textField.text];
+    
+}
 @end

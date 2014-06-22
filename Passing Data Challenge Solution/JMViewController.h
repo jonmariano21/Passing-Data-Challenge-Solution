@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JMdetailViewController.h"
 
-@interface JMViewController : UIViewController
+@interface JMViewController : UIViewController <JMdetailViewControllerDelegate, UITextFieldDelegate>
 
 
 @property (strong, nonatomic) IBOutlet UITextField *textField;

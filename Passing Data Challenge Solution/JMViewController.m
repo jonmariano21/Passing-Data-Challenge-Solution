@@ -19,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.textField.delegate = self;
+    
 }
 
 //Called automatically when about the segue
@@ -32,10 +34,13 @@
             //the textbox string from JMViewController is assigned to the JMdetailViewController property informationFromTextField
             detailVC.informationFromTextField = self.textField.text;
             
+            detailVC.delegate = self;
+            
         }
-    }
+    }//close outter if
     
-}
+}//end prepareForSegue
+
 
 
 - (void)didReceiveMemoryWarning
@@ -43,5 +48,24 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+#pragma mark - JMdetailViewController Delegate
+
+-(void)didUpdateText: (NSString *)text{
+    
+    self.textField.text = text;
+}
+
+#pragma mark - UITextFieldDelegate
+
+-(BOOL)textFieldShouldReturn:(UITextField *)textField{
+    
+    [self.textField resignFirstResponder];//closes keyboard
+    
+    return YES;
+    
+}
+
 
 @end
